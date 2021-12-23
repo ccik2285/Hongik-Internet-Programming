@@ -1,0 +1,4 @@
+책에 functions.php 부분에 오류가 있길래 고쳤습니다. showProfile 함수에 global $pdo; 를 추가해서 오류를 잡았습니다.
+
+1. 한번 수정한 profile은 다시는 수정 안되길래 수정할 수 있게 바꿨습니다.
+2. friends의 기능에서 follower, following 두 기능 모두 한 명씩 밖에 안뜨길래 관련된 모든 사람이 뜰 수 있게 바꿨습니다.
